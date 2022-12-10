@@ -1,0 +1,44 @@
+.main-frame {
+  width: 18rem;
+    border-radius: 20px;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.btnsection {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  margin-top: 4%;
+}
+
+@media(min-width:100px) and (max-width:1000px){
+  .main-frame {
+    width: 18rem;
+    border-radius: 20px;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .btnsection {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .btn {
+    margin-top: 4%;
+    color: black;
+  }
+}
